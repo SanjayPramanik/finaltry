@@ -24,6 +24,10 @@ public class ProjectController {
         this.userRepository = userRepository;
     }
 
+    @GetMapping("/")
+    public String home() {
+        return "Backend is running";
+    }
     @GetMapping
     public ResponseEntity<List<Project>> getProjects(Authentication authentication) {
         String email = authentication.getName();
