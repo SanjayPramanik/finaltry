@@ -1,5 +1,5 @@
 // Auth service for handling authentication API calls
-const API_BASE_URL = "https://finaltry-3-6exz.onrender.com";
+const API_BASE_URL = "https://finaltry-3-6exz.onrender.com/api";
 class AuthService {
   // Login user
   async login(email, password) {
