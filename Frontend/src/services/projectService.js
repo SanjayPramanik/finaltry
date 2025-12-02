@@ -1,5 +1,5 @@
 // Project service for handling project-related API calls
-const API_BASE_URL = "https://finaltry-3-6exz.onrender.com";
+const API_BASE_URL = "https://finaltry-3-6exz.onrender.com/api";
 
 class ProjectService {
   // Get all projects for the current user
