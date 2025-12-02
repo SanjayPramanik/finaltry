@@ -1,5 +1,5 @@
 // Note service for handling note-related API calls
-const API_BASE_URL = "https://finaltry-3-6exz.onrender.com";
+const API_BASE_URL = "https://finaltry-3-6exz.onrender.com/api";
 
 class NoteService {
   // Get all notes for the current user
