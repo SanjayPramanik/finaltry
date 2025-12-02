@@ -1,6 +1,5 @@
 // Note service for handling note-related API calls
-const API_BASE_URL =
-  import.meta.env.VITE_API_URL || "http://localhost:3001/api";
+const API_BASE_URL = "https://finaltry-3-6exz.onrender.com";
 
 class NoteService {
   // Get all notes for the current user
